@@ -1,0 +1,57 @@
+body{
+  background-image: url("https://umad.com/img/2015/1/soccer-wallpaper-849-913-hd-wallpapers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p{
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+font-size: 3em;
+color: whitesmoke;
+}
+.p{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 25%;
+    width: 60%;
+  }
+
+}
+.button{
+  background-color: transparent;
+border: transparent;
+font-size: 2em;
+padding-left: 20px;
+padding-top: 10px;
+}
+a {
+  color: #FFF;
+}
+a:hover{
+  color: darkgreen;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}

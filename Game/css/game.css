@@ -1,0 +1,167 @@
+body{
+  margin: 4%;
+  font: 18px Verdana;
+  color: #FFF;
+  background: #CCC;
+}
+.cover{
+  background-image: url("../images/vvZQmlz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#picbox {
+	margin: 0px auto;
+	width: 90%;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+	width: 15%;
+	height: 235px;
+	margin: 10px;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0 10px 35px rgba(0,0,0,.5);
+  background-image: url("../images/o.jpg");
+  background-size: 240px 235px;
+  background-repeat: no-repeat;
+	z-index: 2;
+}
+#boxcard div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
+  width: 226px;
+  height: 225px;
+
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: #EE872A;
+	padding: 5px 10px;
+	margin: 5px;
+ font-size: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: transparent;
+}
+
+.time{
+  color: #FFF;
+  font-size: 25px;
+  width: 20%;
+  border: solid;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+.button{
+  background-color: transparent;
+border: transparent;
+font-size: 2em;
+padding-left: 20px;
+padding-top: 10px;
+}
+a {
+  color: #FFF;
+}
+a:hover{
+  color: #EE872A;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.winner{
+
+  position:fixed; z-index:100000; left:0; top:0; bottom:0; right:0; background-color:rgba(0,0,0,0.8);
+  height: 0;
+  font-size:80px; color:white; font-weight:bold; text-align:center;
+  text-indent:0;
+  transition: height 1s ease-in, opacity 1s ease-in;
+  opacity: 0;
+  line-height:500px;
+  background-image: url("https://media.giphy.com/media/2gtoSIzdrSMFO/giphy.gif");
+  background-size: cover;
+}
+.gameover{
+  position:fixed; z-index:100000; left:0; top:0; bottom:0; right:0; background-color:rgba(0,0,0,0.8);
+  height: 0;
+  font-size:80px; color:white; font-weight:bold; text-align:center;
+  text-indent:0;
+  transition: height 1s ease-in, opacity 1s ease-in;
+  opacity: 0;
+  line-height:500px;
+  background-image: url("https://media.giphy.com/media/dkuZHIQsslFfy/giphy.gif");
+
+}
+
+.showing {
+  height: 100vh;
+  opacity: 1;
+}
+
+@keyframes gameover{
+0%{left:-5000px;bottom:100%;}
+97%{left:-5000px;bottom:100%;}
+100%{ left:0px;}
+}
+
+.winner{
+  color: deeppink;
+  text-shadow:  0px -4px 161px mediumspringgreen;
+  font-size: 1em;
+}
+
+.button2{
+    color:black;
+    text-shadow: 11px 0px 50px black;
+    font-size: 1em;
+    font-size: 50px;
+    font-family: arial;
+    padding-right: -31px;
+    position: absolute;
+    top: -170px;
+    left: 863px;
+    height: 285px;
+
+
+}
+#line:hover{
+  text-decoration-line: none;
+  color: black;
+}
+#line2:hover{
+  text-decoration-line: none;
+  color: black;
+}

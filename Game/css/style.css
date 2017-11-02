@@ -1,0 +1,75 @@
+.cover-image{
+  background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Amazing-Football-With-Stadium-Background.jpg");
+  height: 100px;
+  background-size: cover;
+  font-family: arial;
+}
+
+.start{
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  padding-top: 175px;
+
+}
+.button-1 {
+
+  background-repeat:no-repeat;
+  border: solid 4px;
+  cursor:pointer;
+  overflow: hidden;
+  text-shadow: -2px 17px 25px blue;
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+.a-1{
+  text-decoration: none !important;
+  color: darkblue;
+
+}
+
+h1, h2{
+
+  font-size: 2em;
+  color: #FFF;
+  text-shadow:-2px 17px 25px blue;
+  padding-top: 5px;
+  color: darkblue;
+}
+.h1{
+text-align: center;
+font-size: 20px;
+padding-top: 5px;
+}
+h1:hover{
+color: #337ab7;
+}
+
+.button-2 {
+  background-repeat:no-repeat;
+  border: solid 4px;
+  cursor:pointer;
+  overflow: hidden;
+  text-shadow: -2px 17px 25px blue;
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+.button-2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button-2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.div2{
+  padding-top: 20px;
+}

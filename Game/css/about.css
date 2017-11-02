@@ -1,0 +1,67 @@
+body{
+  background-image: url("http://www.chainimage.com/images/network-technology-hd-photo-computer-network-technology-hd-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.p{
+text-align: center;
+font-size: 2em;
+color: black;
+padding-top: 100px;
+width: 100%;
+}
+.ul1{
+  padding-top: 80px;
+}
+/*.p{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 25%;
+    width: 60%;
+  }*/
+
+
+.button{
+  background-color: transparent;
+border: transparent;
+font-size: 2em;
+padding-left: 20px;
+padding-top: 10px;
+}
+a {
+  color: black;
+}
+a:hover{
+  color: darkgreen;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+img{
+  width: 25%;
+  float: right;
+transform: rotate(90deg);
+/* border: solid; */
+border-radius: 25px;
+}
