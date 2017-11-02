@@ -19,7 +19,7 @@ var ImgSource = [
 ];
 
 var audioGo = new Audio("./music/gameO.wav");
-var crazy = new Audio("./music/gameO.wav");
+var crazy = new Audio("./music/crazy.mp4");
 
 function RandomFunction(MaxValue, MinValue) {
 		return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
