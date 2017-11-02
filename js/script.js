@@ -140,13 +140,11 @@ $(document).ready(function(){
   });
 });
 
-// $(document).ready(function(){
-//   $(".button2").click(function(){
-//     $(".winner").removeClass("showing");
-//
-//
-//   });
-// });
+$(document).ready(function(){
+  $(".button2").click(function(){
+    $(".winner").removeClass("showing");
+  });
+});
 
 // function re(){
 //   if("#ResetGame();" === true){
