@@ -19,7 +19,7 @@ var ImgSource = [
 ];
 
 var audioGo = new Audio("./music/gameO.wav");
-var crazy = new Audio("./music/gameO.mp4");
+var crazy = new Audio("./music/gameO.wav");
 
 function RandomFunction(MaxValue, MinValue) {
 		return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
@@ -140,13 +140,13 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  $(".button2").click(function(){
-    $(".winner").removeClass("showing");
-
-
-  });
-});
+// $(document).ready(function(){
+//   $(".button2").click(function(){
+//     $(".winner").removeClass("showing");
+//
+//
+//   });
+// });
 
 // function re(){
 //   if("#ResetGame();" === true){
