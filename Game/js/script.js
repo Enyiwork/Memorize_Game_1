@@ -19,7 +19,7 @@ var ImgSource = [
 ];
 
 var audioGo = new Audio("./music/gameO.wav");
-var crazy = new Audio("./music/cool.mp3");
+var crazy = new Audio("./music/gameO.mp4");
 
 function RandomFunction(MaxValue, MinValue) {
 		return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
@@ -145,15 +145,15 @@ $(document).ready(function(){
   $(".button2").click(function(){
     $(".winner").removeClass("showing");
 
-    cool.stop();
+
   });
 });
 
-function re(){
-  if("#ResetGame();" === true){
-    cool.stop();
-  }
-}
+// function re(){
+//   if("#ResetGame();" === true){
+//     cool.stop();
+//   }
+// }
 
 // var time = 31;
 // var timeCounter;
