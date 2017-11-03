@@ -165,3 +165,244 @@ a:hover{
   text-decoration-line: none;
   color: black;
 }
+
+@media (min-width: 1024px) and (min-height: 710px) {
+  #boxcard div img {
+      display: none;
+      border-radius: 10px;
+      z-index: 3;
+      width: 109px;
+      height: 115px;
+  }
+  #boxcard div {
+    float: left;
+    width: 14%;
+    height: 125px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.5);
+    background-image: url(../images/o.jpg);
+    background-size: 240px 235px;
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  #boxbuttons .button {
+    text-transform: uppercase;
+    background: #EE872A;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 30px;
+}
+}
+@media (min-width: 768px) and (min-height: 710px) {
+  #boxcard div {
+      float: left;
+      width: 109px;
+      height: 121px;
+      margin: 10px;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 10px 35px rgba(0,0,0,.5);
+      background-image: url(../images/o.jpg);
+      background-size: 109px 121px;
+      background-repeat: no-repeat;
+      /* z-index: 2; */
+  }
+  #boxcard div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+    width: 99px;
+    height: 112px;
+}
+
+}
+@media (min-width: 320px) and (min-height: 710px) {
+
+
+}
+@media (min-width: 375px) and (min-height: 710px) {
+
+
+}
+@media (min-width: 425px) and (min-height: 710px) {
+
+
+}
+@media (min-width: 768px) {
+  #boxcard div {
+      float: left;
+      width: 109px;
+      height: 121px;
+      margin: 10px;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 10px 35px rgba(0,0,0,.5);
+      background-image: url(../images/o.jpg);
+      background-size: 109px 121px;
+      background-repeat: no-repeat;
+      /* z-index: 2; */
+  }
+  #boxcard div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+    width: 99px;
+    height: 112px;
+}
+
+}
+@media (min-width: 1024px){
+  #boxcard div img {
+      display: none;
+      border-radius: 10px;
+      z-index: 3;
+      width: 109px;
+      height: 115px;
+  }
+  #boxcard div {
+      float: left;
+      width: 14%;
+      height: 125px;
+      margin: 11px;
+      padding: 5px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 10px 35px rgba(0,0,0,.5);
+      background-image: url(../images/o.jpg);
+      background-size: 121px 127px;
+      background-repeat: no-repeat;
+      z-index: 2;
+  }
+  #boxbuttons .button {
+    text-transform: uppercase;
+    background: #EE872A;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 30px;
+}
+}
+@media (min-width: 1440px) {
+  #boxcard div {
+    float: left;
+    width: 14%;
+    height: 176px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.5);
+    background-image: url(../images/o.jpg);
+    background-size: 167px 180px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#boxcard div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+    width: 157px;
+    height: 166px;
+}
+}
+@media (min-width: 1920px){
+  #boxcard div{
+  	float: left;
+  	width: 15%;
+  	height: 235px;
+  	margin: 10px;
+  	padding: 5px;
+  	cursor: pointer;
+  	border-radius: 10px;
+  	box-shadow: 0 10px 35px rgba(0,0,0,.5);
+    background-image: url("../images/o.jpg");
+    background-size: 240px 235px;
+    background-repeat: no-repeat;
+  	z-index: 2;
+  }
+  #boxcard div img {
+  	display: none;
+  	border-radius: 10px;
+  	z-index: 3;
+    width: 226px;
+    height: 225px;
+  }
+  #boxbuttons .button {
+  	text-transform: uppercase;
+  	background: #EE872A;
+  	padding: 5px 10px;
+  	margin: 5px;
+   font-size: 30px;
+  	border-radius: 10px;
+  	cursor: pointer;
+  }
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+}
+@media (min-width: 2560px)
+{
+#boxcard div {
+    float: left;
+    width: 15%;
+    height: 320px;
+    margin: 17px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.5);
+    background-image: url(../images/o.jpg);
+    background-size: 320px 325px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#boxcard div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+    width: 305px;
+    height: 307px;
+}
+#boxbuttons .button {
+    text-transform: uppercase;
+    background: #EE872A;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 59px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 67px;
+}
+}
