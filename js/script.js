@@ -17,9 +17,9 @@ var ImgSource = [
   "http://cdn.caughtoffside.com/wp-content/uploads/2016/06/Gareth-Bale-Real-Madrid.jpg",
 
 ];
-
+var back = new Audio("./music/soccer.mp3");
 var audioGo = new Audio("./music/gameO.wav");
-var crazy = new Audio("./music/cool.mp3");
+var crazy = new Audio("./music/word.mp3");
 
 function RandomFunction(MaxValue, MinValue) {
 		return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
@@ -107,9 +107,6 @@ function OpenCard() {
 			$(".winner").addClass("showing");
 
       crazy.play();
-      if ("showing" === hide){
-        crazy.stop();
-      }
 		}
 
 }
@@ -134,6 +131,6 @@ $(document).ready(function(){
   $(".button2").click(function(){
     $(".winner").removeClass("showing");
 
-     crazy.stop();
+     crazy.pause();
   });
 });
