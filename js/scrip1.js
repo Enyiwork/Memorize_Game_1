@@ -1,4 +1,4 @@
-var crazy = new Audio("./music/pit.mp3");
+var crazy = new Audio("./music/ohoh.mp3");
 $(document).ready(function(){
   crazy.play();
 });
