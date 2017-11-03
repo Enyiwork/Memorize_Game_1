@@ -51,12 +51,14 @@ function ResetGame() {
 	$(Source + " div img").hide();
 	$(Source + " div").css("visibility", "visible");
 	Counter = 32;
+
 	$("#success").remove();
 	$("#counter").html("" + Counter);
 	BoxOpened = "";
 	ImgOpened = "";
 	ImgFound = 0;
   return false;
+
 }
 
 function OpenCard() {
@@ -106,6 +108,7 @@ function OpenCard() {
 		if (ImgFound === ImgSource.length) {
 			$(".winner").addClass("showing");
 
+      back.pause();
       crazy.play();
 		}
 
@@ -132,5 +135,10 @@ $(document).ready(function(){
     $(".winner").removeClass("showing");
 
      crazy.pause();
+     back.play();
   });
+});
+
+$(document).ready(function(){
+  back.play();
 });

@@ -30,3 +30,7 @@
   };
 
 })( jQuery );
+var crazy = new Audio("./music/soccer.mp3");
+$(document).ready(function(){
+  crazy.play();
+});
