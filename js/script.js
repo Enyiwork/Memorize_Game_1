@@ -107,22 +107,12 @@ function OpenCard() {
 			$(".winner").addClass("showing");
 
       crazy.play();
+      if ("showing" === hide){
+        crazy.stop();
+      }
 		}
 
 }
-
-//  var win;
-//  var lose;
-//
-//     function gameover(){                                    Prove failed
-//       $(".gameover").addClass("showing");
-//     if (win === ImgFound) {
-//
-//       return true;
-//     } else {
-//       return gameover;
-//     }
-// }
 
 $(function() {
 for (var y = 1; y < 3 ; y++) {
@@ -147,20 +137,3 @@ $(document).ready(function(){
      crazy.stop();
   });
 });
-
-
-
-// var time = 31;
-// var timeCounter;
-//
-// timeCounter = setInterval(function(){
-//   time -= 1;
-//   console.log(time);
-//   $(".time").html("Game Time: " + time);
-//
-//   if(time <= 0){
-//     clearInterval(timeCounter);
-//     return;
-//   }
-//
-// },1000);
