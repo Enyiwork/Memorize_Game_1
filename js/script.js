@@ -100,7 +100,7 @@ function OpenCard() {
 
         if (Counter === 1){
         $(".gameover").addClass("showing");
-
+        back.pause();
         audioGo.play();
       }
     }
@@ -124,10 +124,10 @@ for (var y = 1; y < 3 ; y++) {
 	ShuffleImages();
 });
 
-$(document).ready(function(){
+
   $(".button2").click(function(){
     $(".gameover").removeClass("showing");
-  });
+  
 });
 
 $(document).ready(function(){
