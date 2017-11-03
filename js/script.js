@@ -19,7 +19,7 @@ var ImgSource = [
 ];
 
 var audioGo = new Audio("./music/gameO.wav");
-var crazy = new Audio("./music/crazy.mp4");
+var crazy = new Audio("./music/cool.mp3");
 
 function RandomFunction(MaxValue, MinValue) {
 		return Math.round(Math.random() * (MaxValue - MinValue) + MinValue);
@@ -143,14 +143,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(".button2").click(function(){
     $(".winner").removeClass("showing");
+
+     crazy.stop();
   });
 });
 
-// function re(){
-//   if("#ResetGame();" === true){
-//     cool.stop();
-//   }
-// }
+
 
 // var time = 31;
 // var timeCounter;

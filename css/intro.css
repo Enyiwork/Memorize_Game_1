@@ -4,15 +4,14 @@ body{
   background-repeat: no-repeat;
 }
 .p{
-text-align: center;
-margin-left: 25%;
+
 margin-right: 25%;
-font-size: 3em;
+font-size: 2em;
 color: whitesmoke;
 }
 .p{
-  animation-duration: 3s;
-  animation-name: slidein;
+  /*animation-duration: 3s;
+  animation-name: slidein;*/
 }
 
 @keyframes slidein {
@@ -54,4 +53,7 @@ a:hover{
   top: 0;
   right: -20px;
   transition: 1s;
+}
+img{
+  width: 30%;
 }
